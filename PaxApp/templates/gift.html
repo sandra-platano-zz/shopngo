@@ -1,0 +1,13 @@
+{% extends 'template_v3.html' %}
+
+{% block ScriptAtEnd %}
+<script>
+    var statusBox=document.getElementById('informationBox')
+    $('.statusBouton').hide()
+    // Suppression des messages dans le statut
+    while (statusBox.firstChild) {
+            statusBox.removeChild(statusBox.firstChild);
+    }
+    ShowPromotion()
+</script>
+{% endblock %}
