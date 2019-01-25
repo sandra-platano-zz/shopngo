@@ -173,8 +173,8 @@ function updatePageInfo(responseText){
         var para=document.createElement("div")
         para.setAttribute('class','col-sm-2')
 
-        row.append(para)
-
+        row.append(para);
+        alert('sometyhing');
         /*var para=document.createElement("a")
         para.setAttribute('class','btn btn-default col-sm-8 col-md-2')
         para.setAttribute('href','#example-section')
