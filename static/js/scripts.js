@@ -175,13 +175,13 @@ function updatePageInfo(responseText){
 
         row.append(para)
 
-        var para=document.createElement("a")
+        /*var para=document.createElement("a")
         para.setAttribute('class','btn btn-default col-sm-8 col-md-2')
         para.setAttribute('href','#example-section')
         para.style="color: blue;"
         var node = document.createTextNode('UNIQUE EXPERIENCES')
-        para.appendChild(node)
-        row.append(para)
+        para.appendChild(node);
+        row.append(para);*/
 
 
 		}
