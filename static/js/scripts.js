@@ -230,7 +230,7 @@ function updatePageInfo(responseText){
 
 
 		// When flight is delayed, we push promotions !
-		if (response.delay_duration!==null){
+		if (true || response.delay_duration!==null){
 
 
 
@@ -281,7 +281,8 @@ function sendForm(){
 	var xmlHttp = new XMLHttpRequest();
 	xmlHttp.onreadystatechange = function() {
         if (xmlHttp.readyState == 4 && xmlHttp.status == 200){
-            console.log("ready to update page info")
+            console.log("ready to update page info");
+            // confirm("that's the response info :"+ xmlHttp.responseText);
             updatePageInfo(xmlHttp.responseText);
         }
 
