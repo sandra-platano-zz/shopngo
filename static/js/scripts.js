@@ -79,6 +79,25 @@ function updatePageInfo(responseText){
 				statusBox.removeChild(statusBox.firstChild);
 		}
 
+
+		// YOUR FLIGHT IS DELAYED
+		var para = document.createElement("h5");
+		para.setAttribute('class', 'head_section');
+		para.setAttribute('id', 'flightNumber');
+		var node = document.createTextNode("SORRY, YOUR FLIGHT IS DELAYED");
+		para.appendChild(node);
+
+		statusBox.appendChild(para);
+
+		// SORRY
+		var para = document.createElement("h5");
+		para.setAttribute('class', 'status');
+		para.setAttribute('id', 'flightNumber');
+		var node = document.createTextNode("I’LL TAKE CARE OF YOU DURING YOUR WAITING TIME");
+		para.appendChild(node);
+
+		statusBox.appendChild(para);
+
 		/*if (response.delay_duration!==null){
 		// YOUR FLIGHT IS DELAYED
 		var para = document.createElement("h5");
