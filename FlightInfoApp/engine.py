@@ -7,6 +7,7 @@ ORLY_DEPARTURE_URL = 'https://www.flightstats.com/go/weblet?guid=e0b4268329e1b88
 CDG_DEPARTURE_URL = 'https://www.flightstats.com/go/weblet?guid=e0b4268329e1b884:6973da7e:14b50a6af6d:-18d3&weblet=status&action=AirportFlightStatus&airportCode=CDG&airportQueryTimePeriod='
 
 def searchByFlightNumber(flight_number):
+    return {'found': True};
     for i in range(8, 0, -1):
 
         # HTML page with all flights from Orly

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7bd7c81-4a40-48d8-a429-008158810f08" name="Default Changelist" comment="" />
+    <list default="true" id="b7bd7c81-4a40-48d8-a429-008158810f08" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlightInfoApp/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlightInfoApp/engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/scripts.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,17 +29,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PaxApp/templates/template_v3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1310">
-              <caret line="90" column="114" selection-start-line="90" selection-start-column="110" selection-end-line="90" selection-end-column="114" />
+            <state relative-caret-position="290">
+              <caret line="72" column="71" lean-forward="true" selection-start-line="72" selection-start-column="71" selection-end-line="72" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FlightInfoApp/engine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="85">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -43,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="183" column="27" lean-forward="true" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
+            <state relative-caret-position="157">
+              <caret line="216" column="30" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -72,6 +76,8 @@
       <find>services</find>
       <find>section</find>
       <find>from</find>
+      <find>please</find>
+      <find>confirm</find>
     </findStrings>
     <replaceStrings>
       <replace>Flèche light</replace>
@@ -84,6 +90,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/PaxApp/templates/template_v3.html" />
+        <option value="$PROJECT_DIR$/FlightInfoApp/engine.py" />
         <option value="$PROJECT_DIR$/static/js/scripts.js" />
       </list>
     </option>
@@ -167,7 +174,7 @@
       <option name="presentableId" value="Default" />
       <updated>1545230394427</updated>
       <workItem from="1545230399306" duration="12948000" />
-      <workItem from="1548698515709" duration="940000" />
+      <workItem from="1548698515709" duration="2856000" />
     </task>
     <task id="LOCAL-00001" summary="changement message 40€ avec un point à la fin">
       <created>1545233409945</created>
@@ -253,11 +260,25 @@
       <option name="project" value="LOCAL" />
       <updated>1548698612867</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="remplacement du code barre par le code barre 2 communiqué par Marion">
+      <created>1548706184888</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1548706184889</updated>
+    </task>
+    <task id="LOCAL-00014" summary="display code barre par défaut si vol en retard ou non">
+      <created>1548711001755</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1548711001756</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13888000" />
+    <option name="totallyTimeSpent" value="15804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -270,8 +291,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="826" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1795422" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1795422" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -285,7 +307,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299712" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.36103544" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.36103544" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -357,7 +379,9 @@
     <MESSAGE value="remplacement de flèche grosse par flêche initiale de mathieu" />
     <MESSAGE value="insertion orange lucky" />
     <MESSAGE value="delete alert" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete alert" />
+    <MESSAGE value="remplacement du code barre par le code barre 2 communiqué par Marion" />
+    <MESSAGE value="display code barre par défaut si vol en retard ou non" />
+    <option name="LAST_COMMIT_MESSAGE" value="display code barre par défaut si vol en retard ou non" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/static/images/prev.png">
@@ -546,27 +570,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="183" column="27" lean-forward="true" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PaxApp/templates/template_v3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1310">
-          <caret line="90" column="114" selection-start-line="90" selection-start-column="110" selection-end-line="90" selection-end-column="114" />
+        <state relative-caret-position="290">
+          <caret line="72" column="71" lean-forward="true" selection-start-line="72" selection-start-column="71" selection-end-line="72" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlightInfoApp/engine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="85">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="216" column="30" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
         </state>
       </provider>
     </entry>

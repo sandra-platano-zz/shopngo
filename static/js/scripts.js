@@ -79,7 +79,7 @@ function updatePageInfo(responseText){
 				statusBox.removeChild(statusBox.firstChild);
 		}
 
-		if (response.delay_duration!==null){
+		/*if (response.delay_duration!==null){
 		// YOUR FLIGHT IS DELAYED
 		var para = document.createElement("h5");
 		para.setAttribute('class', 'head_section');
@@ -181,7 +181,7 @@ function updatePageInfo(responseText){
         para.style="color: blue;"
         var node = document.createTextNode('UNIQUE EXPERIENCES')
         para.appendChild(node);
-        row.append(para);*/
+        row.append(para);
 
 
 		}
@@ -225,7 +225,7 @@ function updatePageInfo(responseText){
 		para.appendChild(node);
 
 		statusBox.appendChild(para);
-		}
+		}*/
 
 
 
