@@ -105,7 +105,7 @@ requests-toolbelt==0.8.0
 rsa==3.4.2
 scikit-learn==0.19.1
 scipy==1.0.0
-Scrapy==1.4.0
+Scrapy==2.6.2
 seaborn==0.8.1
 semantic-version==2.5.0
 service-identity==17.0.0
